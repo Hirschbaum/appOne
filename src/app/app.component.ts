@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'appOne';
+  title = 'Sajóörös';
+  street = 'Ady Endre utca';
+  students = [
+    {name: 'Deepthy'},
+    {name: 'Rubi'},
+    {name: 'Ada'}
+  ];
 }
+
+
